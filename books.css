@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: var(--light-pink);
+}
+.content{
+    max-width: 1000px;
+    margin: 50px auto;
+    margin-top: 15rem;
+}
+.content  img{ 
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    display: flex;
+}
+.title h1 h3{
+    margin-left: 30px;
+    display: grid;
+}
+.chapter-text p{
+    color: #000;
+    line-height: 1.5;
+}
+h1 h3 {
+    text-align: center;
+}
+
+.next{
+    margin-left:  70rem;
+  margin-top: -30px;
+}
+
+.next a{
+    cursor: pointer;
+}
